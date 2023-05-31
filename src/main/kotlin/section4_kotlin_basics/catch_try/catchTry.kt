@@ -1,4 +1,4 @@
-package section4_kotlin_basics.catch_try.catch_try
+package section4_kotlin_basics.catch_try
 
 fun main() {
 

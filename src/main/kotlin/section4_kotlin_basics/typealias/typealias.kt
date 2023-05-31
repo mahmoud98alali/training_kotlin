@@ -1,4 +1,4 @@
-package section4_kotlin_basics.catch_try.`typealias`
+package section4_kotlin_basics.`typealias`
 
 typealias  AuthToken = String
 fun main() {
