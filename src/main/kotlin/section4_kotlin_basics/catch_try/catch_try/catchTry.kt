@@ -1,3 +1,5 @@
+package section4_kotlin_basics.catch_try.catch_try
+
 fun main() {
 
 //    How to Use a Try Catch Statement in Kotlin
@@ -19,7 +21,7 @@ val obj = PersonInfo2("Mahmoud",15)
     }
 }
 
-private fun showException(user :PersonInfo2){
+private fun showException(user : PersonInfo2){
     if (user.age < 18){
         throw IllegalArgumentException("\nHi ${user.name},Your age is ${user.age}?\nSorry your age is very small.")
 
